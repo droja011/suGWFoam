@@ -1,0 +1,18 @@
+boundaryConditions/fixedTotalHeadBC/fixedTotalHeadFvPatchScalarField.C
+boundaryConditions/fixedFluxBC/fixedFluxBCFvPatchScalarField.C
+boundaryConditions/unsteadyFixedFluxBC/unsteadyFixedFluxBCFvPatchScalarField.C
+soilRelations/soilModel/soilModel.C
+soilRelations/soilModel/newSoilModel.C
+soilRelations/vanGenuchten/vanGenuchten.C
+soilRelations/vanGenuchten2/vanGenuchten2.C
+soilRelations/vanGenuchten3/vanGenuchten3.C
+soilRelations/Haverkamp/Haverkamp.C
+soilRelations/PaniconiEtAl1991/PaniconiEtAl1991.C
+convergenceCriteria/convergenceCriterion/convergenceCriterion.C
+convergenceCriteria/convergenceCriterion/newConvergenceCriterion.C
+convergenceCriteria/standard/standard.C
+convergenceCriteria/mixed/mixed.C
+convergenceCriteria/waterContent/waterContent.C
+suGWFoam.C
+
+EXE = $(FOAM_USER_APPBIN)/suGWFoam
